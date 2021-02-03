@@ -1,0 +1,67 @@
+.h1s {
+  text-align: center;
+  align-items: center;
+  border-bottom: 2px solid gray;
+  border-right:2px solid gray ;
+  width: 100%;
+ 
+}
+.grids{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: grid;
+  gap: 20px;
+  grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+}
+
+.mycontainer {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.card {
+  background-color: lightgreen;
+  border-radius: 5%;
+  height: 280px;
+  /* padding: 1em;
+  margin: 1em; */
+  /* flex-grow: inherit;
+  float: inline-start;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  cursor: pointer;
+}
+.card-img-top{
+  height: 200px;
+  width: 200px;
+}
+
+
+.card:hover {
+  box-shadow: 5px 5px 5px 5px gray;
+  /* transform: scaleX(1.1); */
+  transform: scale(1.1, 1.1);
+}
+.card-title {
+  text-align: center;
+  width: 100%;
+  margin-bottom: -10px;
+}
+.card-text {
+  text-align: center;
+  width: 100%;
+}
+
+.inputsearch{
+  height: 30px;
+  width: 150px;
+}
+
+.center{
+  text-align: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
