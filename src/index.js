@@ -6,6 +6,6 @@ ReactDOM.render(
   <>
     <App />
   </>,
-  document.getElementBsyId('root')
+  document.getElementById('root')
 );
 
